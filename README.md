@@ -1,5 +1,5 @@
 This project uses T-SQL to divide data into 3 Layers 
-
+![alt text](image.png)
 # Bronze
 This layer **loads raw data** from various sources into SQL using DDL commands 
 Here we define all the data types
@@ -12,6 +12,8 @@ This layer refines raw data from the Bronze layer into **cleaned, structured, an
 
 This layer delivers highly curated, aggregated, and analytics-ready data tailored for **specific business use cases**, dashboards, and reporting. It involves advanced transformations, business logic implementations, and joins across multiple Silver tables to generate insights-rich datasets.
 
+
+[text](12_SQL_Projects_ETL.pdf)
 The focus is on:
 
 Business KPIs and metrics
@@ -23,3 +25,5 @@ Dimensional modeling (e.g., star or snowflake schema)
 Performance optimization for downstream consumption
 
 Data in the Gold layer is consumed directly by BI tools, machine learning models, and reporting systems for decision-making.
+
+** This project is part of course by Barra
